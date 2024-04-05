@@ -15,9 +15,20 @@ public class Board {
     void setBoard(int xSizeChoice , int ySizeChoice, int numBombsChoice) {
         xSize = xSizeChoice;
         ySize = ySizeChoice;
+
         totalUnrevealedTiles = xSize * ySize;
         numBombs = numBombsChoice;
-
+        if (xSize>=ySize) {
+            int stringLength = Integer.toString(xSize).length() + 2;
+            if (pad < stringLength){
+                pad = stringLength;
+            }
+        } else {
+            int stringLength = Integer.toString(ySize).length() + 2;
+            if (pad < stringLength){
+                pad = stringLength;
+            }
+        }
         for (int x = 1; x <= xSize ; x++) {
             tilesList.add(new ArrayList<Tile>());
             for(int y = 1; y <= ySize; y++) {
@@ -29,7 +40,6 @@ public class Board {
     void generateBombs(int x, int y) { //takes the coordinates of the first chosen tile
         LinkedList<String> bombLocations = new LinkedList<String>();
         bombLocations.add((x+1)+","+(y+1));
-        System.out.println("user" +(x+1)+","+(y+1));
         for (int i=1; i<= numBombs; i++) {
             int bombX = 0;
             int bombY = 0;
@@ -38,7 +48,6 @@ public class Board {
                 bombX = (int) (Math.random() * xSize + 1);
                 bombY = (int) (Math.random() * ySize + 1);
             } while (bombLocations.contains(bombX + "," + bombY));  //Checks if bomb already exists in that location
-            System.out.println("bomb"+bombX+","+bombY);
             tilesList.get(bombX - 1).get(bombY - 1).isBomb = true; //Adds bomb to location list
             bombLocations.add(bombX + "," + bombY); //Changes bomb attribute
 

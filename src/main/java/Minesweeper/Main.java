@@ -17,8 +17,7 @@ public class Main {
     }
 
     public static String revealTile(Board myBoard, int xCoord, int yCoord) {
-        System.out.println("reveal");
-        System.out.println(xCoord + "," + yCoord);        String gameState = "CONT";
+        String gameState = "CONT";
         myBoard.tilesList.get(xCoord).get(yCoord).isRevealed =true;
         myBoard.totalUnrevealedTiles--;
         if (myBoard.totalUnrevealedTiles==((myBoard.xSize * myBoard.ySize)-1)) {
@@ -30,52 +29,41 @@ public class Main {
         } else if (myBoard.tilesList.get(xCoord).get(yCoord).adjacentBombs == 0){
 
             if (xCoord > 0) { //left
-                System.out.println("left");
                 if (yCoord > 0) {
-                    System.out.println("left up");
                     if (!myBoard.tilesList.get(xCoord-1).get(yCoord-1).isRevealed) {
                         revealTile(myBoard, xCoord - 1, yCoord - 1); //up
                     }
                 }
                 if (yCoord < (myBoard.ySize-1)){ //down
-                    System.out.println("left down");
                     if (!myBoard.tilesList.get(xCoord-1).get(yCoord+1).isRevealed) {
                         revealTile(myBoard, xCoord - 1, yCoord + 1);
                     }
                 }
-                System.out.println("left middle");
                 if (!myBoard.tilesList.get(xCoord-1).get(yCoord).isRevealed) {
                     revealTile(myBoard, xCoord - 1, yCoord);
                 }
             }
             if (xCoord < (myBoard.xSize - 1)) { //right
-                System.out.println("right");
                 if (yCoord > 0) { //up
-                    System.out.println("right up");
                     if (!myBoard.tilesList.get(xCoord+1).get(yCoord-1).isRevealed) {
                         revealTile(myBoard, xCoord + 1, yCoord - 1);
                     }
                 }
                 if (yCoord < (myBoard.ySize-1)) { //down
-                    System.out.println(" right down");
                     if (!myBoard.tilesList.get(xCoord+1).get(yCoord+1).isRevealed) {
                         revealTile(myBoard, xCoord + 1, yCoord + 1);
-                        System.out.println("worked");
                     }
                 }
                 if (!myBoard.tilesList.get(xCoord+1).get(yCoord).isRevealed) {
-                    System.out.println("right middle");
                     revealTile(myBoard, xCoord + 1, yCoord);
                 }
             }
             if (yCoord > 0) { //up middle
-                System.out.println("up middle");
                 if (!myBoard.tilesList.get(xCoord).get(yCoord-1).isRevealed) {
                     revealTile(myBoard, xCoord, yCoord - 1);
                 }
             }
             if (yCoord < (myBoard.ySize-1)) {
-                System.out.println("down middle");
                 if (!myBoard.tilesList.get(xCoord).get(yCoord+1).isRevealed) {
                     revealTile(myBoard, xCoord, yCoord + 1);
                 }
@@ -165,19 +153,19 @@ public class Main {
         int boardXSize = userInputInt("X Size: ", 2);
         int boardYSize = userInputInt("Y Size: ", 2);
         int totalTileCount = boardXSize * boardYSize;
-        int bombChoice = userInputIntRange("How many bombs would you like on the board? ", 0,
+        int bombChoice = userInputIntRange("How many bombs would you like on the board? ", 1,
                 (totalTileCount-1));
         myBoard.setBoard(boardXSize, boardYSize, bombChoice);
         myBoard.displayBoard();
 
         while (gameState.equalsIgnoreCase("CONT")) {
             gameState = playTurn(myBoard,boardXSize,boardYSize);
-            System.out.println(gameState);
         }
         if (gameState.equalsIgnoreCase("WIN")) {
-            System.out.println("WIN");
+            System.out.println("You Win!!! Congrats!");
         } else if (gameState.equalsIgnoreCase("LOSE")) {
-            System.out.println("LOSE");
+            System.out.println("***** KABOOM! *****");
+            System.out.println("You Lose!!! Better Luck Next Time!");
         }
 
     }

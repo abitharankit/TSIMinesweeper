@@ -1,49 +1,47 @@
 
 œ
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(´‹î8Ò¼²ïê1J$36db58b2-4d80-4e33-ae36-d11a3d46ac54
+java:S2293!"YReplace the type specification in this constructor call with the diamond operator ("<>").(´‹î8áÃÆõê1J$198b9ee6-3bff-4056-b67a-6cee13945605
 ¡
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(êã¥£ıÿÿÿÿ8Ò¼²ïê1J$a2f17911-1bcb-40bf-8093-eb21398947c1
+java:S2293)"YReplace the type specification in this constructor call with the diamond operator ("<>").(êã¥£ıÿÿÿÿ8áÃÆõê1J$fd3f6355-e371-41b6-aef5-3720dee39af2
 ^
-java:S1643e"Use a StringBuilder instead.(Ä­«8Ó¼²ïê1J$cf142288-b6d8-4184-aa84-8e80ccd25152
+java:S1643n"Use a StringBuilder instead.(Ä­«8âÃÆõê1J$0def3756-a645-4f1f-ba4e-8db1f278ca2b
 d
-java:S1643g"Use a StringBuilder instead.(†ğôºıÿÿÿÿ8Ó¼²ïê1J$1e34a866-b41c-437b-ba22-a3739ea940e6
+java:S1643p"Use a StringBuilder instead.(†ğôºıÿÿÿÿ8âÃÆõê1J$f0b55855-561b-4924-857e-0d2409a6f9ff
 _
-java:S1643k"Use a StringBuilder instead.(§‘”¢8Ó¼²ïê1J$e384a82c-a0b8-457d-84cb-6916b4ded0bf
+java:S1643t"Use a StringBuilder instead.(§‘”¢8âÃÆõê1J$a76e6adf-e24c-435f-8f9e-4d0e7f5017df
 d
-java:S1643o"Use a StringBuilder instead.(‰ÑĞşÿÿÿÿ8Ó¼²ïê1J$d728ddbc-e112-4804-b520-e5eb3e957d17
+java:S1643x"Use a StringBuilder instead.(‰ÑĞşÿÿÿÿ8âÃÆõê1J$c4d59c95-a07c-407c-94e0-6457eac62782
 _
-java:S1643r"Use a StringBuilder instead.(±ÚŒ8Ó¼²ïê1J$d552b6bb-2cfd-4e01-9ac9-4a8b18a1a366
+java:S1643{"Use a StringBuilder instead.(±ÚŒ8âÃÆõê1J$6dcdb29c-db04-4902-af83-a88485d9c047
 _
-java:S1643u"Use a StringBuilder instead.(õÓÒ…8Ó¼²ïê1J$82b43cd7-8b08-4891-b6a8-856badefd6d5
-d
-java:S1643z"Use a StringBuilder instead.(í‘÷Óùÿÿÿÿ8Ó¼²ïê1J$9a115b70-a5cf-4b92-9551-202037bf4d69
-d
-java:S1643}"Use a StringBuilder instead.(‹«à„üÿÿÿÿ8Ó¼²ïê1J$cfe846d7-6866-4451-8995-4f0773e9cff2
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(†Š£ƒ8Ô¼²ïê1J$6d7471a0-8836-4514-9b5d-5396d126bd30
+java:S1643~"Use a StringBuilder instead.(õÓÒ…8âÃÆõê1J$15f499dd-9b20-41e0-8127-2526d1c98789
+e
+java:S1643ƒ"Use a StringBuilder instead.(í‘÷Óùÿÿÿÿ8âÃÆõê1J$182c9680-8f9a-40fc-8367-d93229f5e418
+e
+java:S1643†"Use a StringBuilder instead.(‹«à„üÿÿÿÿ8âÃÆõê1J$bf6db404-48d5-4832-ac4b-cc5c2939be87
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(†Š£ƒ8ãÃÆõê1J$00cff8e6-c1f1-40f0-88e5-9f262025dee2
 •
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(ŠÍ­¤8µ½²ïê1J$19c4f906-7967-4a79-9694-9653cf5c3a24
-m	java:S106 "+Replace this use of System.out by a logger.(‡ƒúõ8·½²ïê1J$f88caaff-b95f-4432-aea6-f5f8f725a68a
+java:S3776("RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(ŠÍ­¤8àÄÆõê1J$2d818d5a-6cdc-4523-ae5e-dd2656b1ce3f
 q
-java:S2140&")Use "java.util.Random.nextInt()" instead.(í¤ı€úÿÿÿÿ8·½²ïê1J$b2b997dc-ed90-41d4-9a12-8b69d95fee36
+java:S21400")Use "java.util.Random.nextInt()" instead.(í¤ı€úÿÿÿÿ8áÄÆõê1J$11cbe5a5-a06e-476c-81e1-b4db9b68fb31
 q
-java:S2140'")Use "java.util.Random.nextInt()" instead.(ùšˆİùÿÿÿÿ8·½²ïê1J$61bebc53-025c-4b85-b321-db118bb82ff2
-r	java:S106)"+Replace this use of System.out by a logger.(¶ûĞ’ÿÿÿÿÿ8éşÉòê1J$335b7717-b483-4ba8-9362-4dd5c864d456
+java:S21401")Use "java.util.Random.nextInt()" instead.(ùšˆİùÿÿÿÿ8áÄÆõê1J$1b71e222-d55c-420c-aef7-44ec8ff8bc54
 š
-java:S3776]"RRefactor this method to reduce its Cognitive Complexity from 34 to the 15 allowed.(‡·ÕÏıÿÿÿÿ8¹½²ïê1J$6ba82529-0447-47c5-bde5-d250b7202db8
+java:S3776f"RRefactor this method to reduce its Cognitive Complexity from 34 to the 15 allowed.(‡·ÕÏıÿÿÿÿ8âÄÆõê1J$3babc5a7-47f1-455a-8b9a-c4861349ac5e
 j
-java:S1125m"'Remove the unnecessary boolean literal.(ûÍµ®8º½²ïê1J$ed5c7610-3857-4f2f-908e-043d3170b7c1
+java:S1125v"'Remove the unnecessary boolean literal.(ûÍµ®8ãÄÆõê1J$26217511-528c-455d-b0e5-ea926fbc4da3
 o
-java:S1125n"'Remove the unnecessary boolean literal.(Øª€Úùÿÿÿÿ8»½²ïê1J$5a7e10e3-8e41-4a43-8eb8-6a5cb387e846
+java:S1125w"'Remove the unnecessary boolean literal.(Øª€Úùÿÿÿÿ8ãÄÆõê1J$2e46e8ba-73b7-4dce-9efb-a100cf9c34f4
 o
-java:S1125p"'Remove the unnecessary boolean literal.(øãåÆüÿÿÿÿ8»½²ïê1J$53106523-84f2-4096-bb23-d98e28871ded
+java:S1125y"'Remove the unnecessary boolean literal.(øãåÆüÿÿÿÿ8äÄÆõê1J$fe3cfccc-6ed9-46df-9494-beb86ed227f8
 j
-java:S1125q"'Remove the unnecessary boolean literal.( Ÿêš8»½²ïê1J$8f8337f6-b17b-4ffc-a95d-f54c94bac69b
+java:S1125z"'Remove the unnecessary boolean literal.( Ÿêš8äÄÆõê1J$fa503a28-a924-4666-96e5-bd88ba351349
 o
-java:S1125s"'Remove the unnecessary boolean literal.(¨»Ü¶üÿÿÿÿ8»½²ïê1J$0856bb25-1b3a-407b-8855-d8e1ebb28b0f
+java:S1125|"'Remove the unnecessary boolean literal.(¨»Ü¶üÿÿÿÿ8äÄÆõê1J$2b359392-9528-4204-bcbc-c8f7c5a2190b
 j
-java:S1125t"'Remove the unnecessary boolean literal.(¡å³8»½²ïê1J$5f2291eb-5ecb-430a-961a-9a520add5c57
+java:S1125}"'Remove the unnecessary boolean literal.(¡å³8äÄÆõê1J$eb44aca1-e975-44ff-ae9b-45508934b6f1
 o
-java:S1125v"'Remove the unnecessary boolean literal.(¨»Ü¶üÿÿÿÿ8¼½²ïê1J$5fbd50a6-eba6-4bb5-9ef6-186c32e5cedc
-j
-java:S1125w"'Remove the unnecessary boolean literal.(ËÎƒ€8¼½²ïê1J$e35322ef-43fc-4fa8-a385-fed78a92466f
-s	java:S106ƒ"+Replace this use of System.out by a logger.(ñ—¸½úÿÿÿÿ8–¶Ìòê1J$bfa5de29-9d5f-4912-afdd-6cc434bdc8b9
+java:S1125"'Remove the unnecessary boolean literal.(¨»Ü¶üÿÿÿÿ8äÄÆõê1J$83282d83-a536-4c00-80c8-45695c9322b1
+k
+java:S1125€"'Remove the unnecessary boolean literal.(ËÎƒ€8äÄÆõê1J$c571f771-c53b-4459-bc03-8c0e05b2db04
+s	java:S106Œ"+Replace this use of System.out by a logger.(ñ—¸½úÿÿÿÿ8åÄÆõê1J$ed1b9fc3-2d53-4ad4-b795-097df0029b87
