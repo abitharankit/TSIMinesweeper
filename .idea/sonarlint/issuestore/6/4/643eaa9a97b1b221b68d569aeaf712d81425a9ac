@@ -1,0 +1,49 @@
+
+œ
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(´‹î8Ò¼²ïê1J$36db58b2-4d80-4e33-ae36-d11a3d46ac54
+¡
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(êã¥£ıÿÿÿÿ8Ò¼²ïê1J$a2f17911-1bcb-40bf-8093-eb21398947c1
+^
+java:S1643e"Use a StringBuilder instead.(Ä­«8Ó¼²ïê1J$cf142288-b6d8-4184-aa84-8e80ccd25152
+d
+java:S1643g"Use a StringBuilder instead.(†ğôºıÿÿÿÿ8Ó¼²ïê1J$1e34a866-b41c-437b-ba22-a3739ea940e6
+_
+java:S1643k"Use a StringBuilder instead.(§‘”¢8Ó¼²ïê1J$e384a82c-a0b8-457d-84cb-6916b4ded0bf
+d
+java:S1643o"Use a StringBuilder instead.(‰ÑĞşÿÿÿÿ8Ó¼²ïê1J$d728ddbc-e112-4804-b520-e5eb3e957d17
+_
+java:S1643r"Use a StringBuilder instead.(±ÚŒ8Ó¼²ïê1J$d552b6bb-2cfd-4e01-9ac9-4a8b18a1a366
+_
+java:S1643u"Use a StringBuilder instead.(õÓÒ…8Ó¼²ïê1J$82b43cd7-8b08-4891-b6a8-856badefd6d5
+d
+java:S1643z"Use a StringBuilder instead.(í‘÷Óùÿÿÿÿ8Ó¼²ïê1J$9a115b70-a5cf-4b92-9551-202037bf4d69
+d
+java:S1643}"Use a StringBuilder instead.(‹«à„üÿÿÿÿ8Ó¼²ïê1J$cfe846d7-6866-4451-8995-4f0773e9cff2
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(†Š£ƒ8Ô¼²ïê1J$6d7471a0-8836-4514-9b5d-5396d126bd30
+•
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(ŠÍ­¤8µ½²ïê1J$19c4f906-7967-4a79-9694-9653cf5c3a24
+m	java:S106 "+Replace this use of System.out by a logger.(‡ƒúõ8·½²ïê1J$f88caaff-b95f-4432-aea6-f5f8f725a68a
+q
+java:S2140&")Use "java.util.Random.nextInt()" instead.(í¤ı€úÿÿÿÿ8·½²ïê1J$b2b997dc-ed90-41d4-9a12-8b69d95fee36
+q
+java:S2140'")Use "java.util.Random.nextInt()" instead.(ùšˆİùÿÿÿÿ8·½²ïê1J$61bebc53-025c-4b85-b321-db118bb82ff2
+r	java:S106)"+Replace this use of System.out by a logger.(¶ûĞ’ÿÿÿÿÿ8éşÉòê1J$335b7717-b483-4ba8-9362-4dd5c864d456
+š
+java:S3776]"RRefactor this method to reduce its Cognitive Complexity from 34 to the 15 allowed.(‡·ÕÏıÿÿÿÿ8¹½²ïê1J$6ba82529-0447-47c5-bde5-d250b7202db8
+j
+java:S1125m"'Remove the unnecessary boolean literal.(ûÍµ®8º½²ïê1J$ed5c7610-3857-4f2f-908e-043d3170b7c1
+o
+java:S1125n"'Remove the unnecessary boolean literal.(Øª€Úùÿÿÿÿ8»½²ïê1J$5a7e10e3-8e41-4a43-8eb8-6a5cb387e846
+o
+java:S1125p"'Remove the unnecessary boolean literal.(øãåÆüÿÿÿÿ8»½²ïê1J$53106523-84f2-4096-bb23-d98e28871ded
+j
+java:S1125q"'Remove the unnecessary boolean literal.( Ÿêš8»½²ïê1J$8f8337f6-b17b-4ffc-a95d-f54c94bac69b
+o
+java:S1125s"'Remove the unnecessary boolean literal.(¨»Ü¶üÿÿÿÿ8»½²ïê1J$0856bb25-1b3a-407b-8855-d8e1ebb28b0f
+j
+java:S1125t"'Remove the unnecessary boolean literal.(¡å³8»½²ïê1J$5f2291eb-5ecb-430a-961a-9a520add5c57
+o
+java:S1125v"'Remove the unnecessary boolean literal.(¨»Ü¶üÿÿÿÿ8¼½²ïê1J$5fbd50a6-eba6-4bb5-9ef6-186c32e5cedc
+j
+java:S1125w"'Remove the unnecessary boolean literal.(ËÎƒ€8¼½²ïê1J$e35322ef-43fc-4fa8-a385-fed78a92466f
+s	java:S106ƒ"+Replace this use of System.out by a logger.(ñ—¸½úÿÿÿÿ8–¶Ìòê1J$bfa5de29-9d5f-4912-afdd-6cc434bdc8b9
