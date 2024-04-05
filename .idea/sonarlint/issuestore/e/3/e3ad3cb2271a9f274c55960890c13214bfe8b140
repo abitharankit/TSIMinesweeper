@@ -1,36 +1,37 @@
 
 ΅
-java:S2293Z"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ω­ωÿÿÿÿ8ίσκ1J$d96e2310-d7e3-4870-857b-02344c2c31c1
+java:S2293["YReplace the type specification in this constructor call with the diamond operator ("<>").(Ω­ωÿÿÿÿ8ο΅¥υκ1J$5ca17754-6feb-4d99-acaa-654888427b7c
 
-java:S2293]"YReplace the type specification in this constructor call with the diamond operator ("<>").(ύΘ‹α8ίσκ1J$0d2729f7-bdb5-4d3a-a38f-c9f24c8cf333
-	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(†£ƒ8™ίσκ1J$c71d6cc1-512d-4462-8656-e4a5a318f478
-m	java:S106"+Replace this use of System.out by a logger.(Έ®ζ8πίσκ1J$2ec036f5-fa7a-411f-b36c-d99e89ebccbe
-m	java:S106"+Replace this use of System.out by a logger.(ΜΰΛ8πίσκ1J$e0a7706c-3fbe-48b4-a39c-e01b2b538867
+java:S2293^"YReplace the type specification in this constructor call with the diamond operator ("<>").(ύΘ‹α8ο΅¥υκ1J$bbb4cb61-57bc-4bf9-bae9-5115caf536cb
+	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(†£ƒ8π΅¥υκ1J$311025b5-9a33-4112-8e10-2e5a4df939ed
+m	java:S106"+Replace this use of System.out by a logger.(Έ®ζ8ΖΆ¥υκ1J$ffb8cf7c-68e6-4ed3-80bb-e183c95dacf8
+m	java:S106"+Replace this use of System.out by a logger.(ΜΰΛ8ΖΆ¥υκ1J$ecaa11b3-f197-4203-8d19-643c306b2091
 •
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 52 to the 15 allowed.(ÿν¥›8ρίσκ1J$4daaf22b-39d3-4abf-9ffe-aa68c106e9fd
-m	java:S106"+Replace this use of System.out by a logger.(ΰΖ8ρίσκ1J$f8894917-3ff7-490c-b5c8-f43b84564e67
-m	java:S106"+Replace this use of System.out by a logger.(Ή»έ‡8ρίσκ1J$efb53617-4873-4251-b66f-e9e09c3bacd5
-r	java:S106!"+Replace this use of System.out by a logger.(Ϊθό‡ώÿÿÿÿ8ςίσκ1J$9d8f02da-4ba0-4253-a94c-64987570537e
-l	java:S106#"+Replace this use of System.out by a logger.(°ϋ³18ςίσκ1J$ae139c53-67b7-4223-a14f-4262f0fe1720
-m	java:S106)"+Replace this use of System.out by a logger.(β•Έÿ8ςίσκ1J$a6f9ba8d-b463-41e8-b1bb-a1e055ddc9bd
-r	java:S106."+Replace this use of System.out by a logger.(ξΡ‚ªώÿÿÿÿ8ςίσκ1J$2ae0c91a-1082-49df-86b3-8a482ad71e87
-m	java:S1064"+Replace this use of System.out by a logger.(½‡±³8σίσκ1J$745b747d-29f0-447d-9423-88ac22226e08
-l	java:S1066"+Replace this use of System.out by a logger.(°ϋ³18σίσκ1J$4ca2b433-7525-42bf-bebc-234c4fedbeaf
-m	java:S106<"+Replace this use of System.out by a logger.(β•Έÿ8σίσκ1J$c6d5964f-fcd3-4547-bc23-3193dc21ceb6
-r	java:S106B"+Replace this use of System.out by a logger.(ξΡ‚ªώÿÿÿÿ8σίσκ1J$1cf70ac9-54fc-4985-a4fc-e82bbed2e0f8
-l	java:S106G"+Replace this use of System.out by a logger.(­³”{8σίσκ1J$ada29ce1-1c26-4652-b948-12318c330195
-m	java:S106M"+Replace this use of System.out by a logger.(‚ΡψΚ8τίσκ1J$fe520d63-91e0-4691-be8d-78f8399e6242
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 52 to the 15 allowed.(ÿν¥›8ΖΆ¥υκ1J$cd824f86-848b-493b-a9a2-fe18a4c29502
+m	java:S106"+Replace this use of System.out by a logger.(ΰΖ8ΗΆ¥υκ1J$4f0caf0f-1694-4988-b059-dabe9a8d9656
+m	java:S106"+Replace this use of System.out by a logger.(Ή»έ‡8ΗΆ¥υκ1J$3652fea0-0330-46b9-9202-c1d87eb91d6d
+r	java:S106!"+Replace this use of System.out by a logger.(Ϊθό‡ώÿÿÿÿ8ΗΆ¥υκ1J$bdf512f1-14a3-4d08-8de1-05003dc2bba3
+r	java:S106#"+Replace this use of System.out by a logger.(ά¤ξΛϋÿÿÿÿ8ΗΆ¥υκ1J$5c9d7bad-f8ec-4aaa-aa50-fb69b1c1b470
+m	java:S106)"+Replace this use of System.out by a logger.(Χθ…«8ΘΆ¥υκ1J$7e88b191-c49e-4dbf-8353-6102ce78c651
+r	java:S106."+Replace this use of System.out by a logger.(ω“΄‘ϋÿÿÿÿ8ΘΆ¥υκ1J$dda365b8-cd81-4346-b154-8661ed33637a
+m	java:S1064"+Replace this use of System.out by a logger.(½‡±³8ΘΆ¥υκ1J$e8a19d95-4d83-463a-949d-408f8d2720ba
+m	java:S1066"+Replace this use of System.out by a logger.(¤•Οω8ΘΆ¥υκ1J$56c5a5a3-aaa5-47a3-abf9-3f2cc7655713
+m	java:S106<"+Replace this use of System.out by a logger.(·¦χί8ΙΆ¥υκ1J$372e34fb-660b-4a43-942a-e04e34ccdade
+r	java:S106?"+Replace this use of System.out by a logger.(“ξώÿϋÿÿÿÿ8ΙΆ¥υκ1J$1af027ed-c973-43b3-b0f0-8d4e84d24b72
+m	java:S106C"+Replace this use of System.out by a logger.(ςϋ·΄8ΙΆ¥υκ1J$f42bcfc9-0840-43fb-94be-60ec664a2969
+l	java:S106H"+Replace this use of System.out by a logger.(­³”{8ΙΆ¥υκ1J$502482a9-7095-4afc-926b-44bb1eb52da9
+m	java:S106N"+Replace this use of System.out by a logger.(‚ΡψΚ8ΙΆ¥υκ1J$8f3eb6ca-f219-422c-aeb9-c1d9b08d9a9c
 
-java:S3776Y"RRefactor this method to reduce its Cognitive Complexity from 34 to the 15 allowed.(π™Ά¥ϋÿÿÿÿ8τίσκ1J$608bc6d5-eb14-4e74-8c27-8f8b8734e8e1
-m	java:S106d"+Replace this use of System.out by a logger.(τ©Β‚8υίσκ1J$e2287ae2-2d23-4a72-ada4-e1940cba43b1
-r	java:S106f"+Replace this use of System.out by a logger.(Ι›άϊÿÿÿÿ8υίσκ1J$d86f75d6-65db-493d-92c8-2f1b29331711
-m	java:S106l"+Replace this use of System.out by a logger.(γÒΗ8φίσκ1J$1bff3f14-09a8-4599-bc83-5f48ad13ad02
-m	java:S106n"+Replace this use of System.out by a logger.(ΫΩΕ8φίσκ1J$f18f152d-94d7-4934-8775-717342c29428
-ƒ	java:S125s"<This block of commented-out lines of code should be removed.(έ‹χ™ύÿÿÿÿ8χίσκ1J$160e765e-89f9-4666-b08f-16a2bef4c724
-„	java:S125"<This block of commented-out lines of code should be removed.(έ‹χ™ύÿÿÿÿ8χίσκ1J$cfc657b0-620a-45a9-b965-a92147fc87c0
-n	java:S106"+Replace this use of System.out by a logger.(γÒΗ8χίσκ1J$d6e646e6-b9b8-45cc-98fb-bfdb03acf073
-s	java:S106‘"+Replace this use of System.out by a logger.(°οΓΗϋÿÿÿÿ8χίσκ1J$27015752-b22b-4c39-8d35-6b6dcdf68440
-n	java:S106£"+Replace this use of System.out by a logger.(Ά ΞΑ8ψίσκ1J$b244a0c1-689f-43ce-a18f-ddc84601c957
-n	java:S106®"+Replace this use of System.out by a logger.(‡¶8ψίσκ1J$e3155d1c-5587-4e3a-8a69-93ea47d470b2
-
-java:S6541Y"ΕA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 65 to 64, Complexity from 16 to 14, Nesting Level from 4 to 2, Number of Variables from 11 to 6.(π™Ά¥ϋÿÿÿÿ8ός¥σκ1J$35fba65c-6d73-4d5f-a6a6-74f52f0758b5
+java:S3776Z"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(π™Ά¥ϋÿÿÿÿ8ΚΆ¥υκ1J$2d624042-9620-45e0-b145-e819fc8f93ec
+m	java:S106e"+Replace this use of System.out by a logger.(τ©Β‚8ΜΆ¥υκ1J$8d2710d9-db5a-429c-b051-a55253d4b41a
+r	java:S106g"+Replace this use of System.out by a logger.(Ι›άϊÿÿÿÿ8ΜΆ¥υκ1J$3ff4d7ba-40f0-4ab1-a4cd-bcd735fcb376
+m	java:S106m"+Replace this use of System.out by a logger.(γÒΗ8ΜΆ¥υκ1J$6c788813-d6dc-42d4-93f8-6265443b659b
+m	java:S106o"+Replace this use of System.out by a logger.(ΫΩΕ8ΜΆ¥υκ1J$83b817e8-cfe1-4a5b-b360-1faf1f350f6c
+ƒ	java:S125u"<This block of commented-out lines of code should be removed.(”μΧΒύÿÿÿÿ8ΝΆ¥υκ1J$38fbe53e-8240-45eb-bdbd-d868725adc99
+„	java:S125ƒ"<This block of commented-out lines of code should be removed.(”μΧΒύÿÿÿÿ8ΝΆ¥υκ1J$266b4930-2101-4379-8897-e248675cc456
+n	java:S106"+Replace this use of System.out by a logger.(γÒΗ8ΝΆ¥υκ1J$9ac58fd3-f753-48b6-8170-e8a651a69c27
+s	java:S106’"+Replace this use of System.out by a logger.(°οΓΗϋÿÿÿÿ8ΞΆ¥υκ1J$fe875090-c232-44a2-99a0-f1717cf34625
+n	java:S106¤"+Replace this use of System.out by a logger.(Ά ΞΑ8ΞΆ¥υκ1J$4167ad69-1219-435d-be79-c18166b59921
+n	java:S106―"+Replace this use of System.out by a logger.(‡¶8ΟΆ¥υκ1J$4702db9c-4db5-4987-aaa8-fe85ec83b3d2
+n	java:S106²"+Replace this use of System.out by a logger.(Έ®ζ8ΟΆ¥υκ1J$fbeb76df-7655-47a7-9c19-f7266eadce53
+n	java:S106΄"+Replace this use of System.out by a logger.(ΜΰΛ8ΟΆ¥υκ1J$94dc44bb-ae07-427b-84e3-20d39a595f3d

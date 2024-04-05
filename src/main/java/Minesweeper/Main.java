@@ -32,18 +32,18 @@ public class Main {
             if (xCoord > 0) { //left
                 System.out.println("left");
                 if (yCoord > 0) {
-                    System.out.println("up");
+                    System.out.println("left up");
                     if (!myBoard.tilesList.get(xCoord-1).get(yCoord-1).isRevealed) {
                         revealTile(myBoard, xCoord - 1, yCoord - 1); //up
                     }
                 }
                 if (yCoord < (myBoard.ySize-1)){ //down
-                    System.out.println("down");
+                    System.out.println("left down");
                     if (!myBoard.tilesList.get(xCoord-1).get(yCoord+1).isRevealed) {
                         revealTile(myBoard, xCoord - 1, yCoord + 1);
                     }
                 }
-                System.out.println("middle");
+                System.out.println("left middle");
                 if (!myBoard.tilesList.get(xCoord-1).get(yCoord).isRevealed) {
                     revealTile(myBoard, xCoord - 1, yCoord);
                 }
@@ -51,20 +51,21 @@ public class Main {
             if (xCoord < (myBoard.xSize - 1)) { //right
                 System.out.println("right");
                 if (yCoord > 0) { //up
-                    System.out.println("up");
+                    System.out.println("right up");
                     if (!myBoard.tilesList.get(xCoord+1).get(yCoord-1).isRevealed) {
                         revealTile(myBoard, xCoord + 1, yCoord - 1);
                     }
                 }
                 if (yCoord < (myBoard.ySize-1)) { //down
-                    System.out.println("down");
+                    System.out.println(" right down");
                     if (!myBoard.tilesList.get(xCoord+1).get(yCoord+1).isRevealed) {
                         revealTile(myBoard, xCoord + 1, yCoord + 1);
+                        System.out.println("worked");
                     }
                 }
-                if (!myBoard.tilesList.get(xCoord-1).get(yCoord).isRevealed) {
-                    System.out.println("middle");
-                    revealTile(myBoard, xCoord - 1, yCoord);
+                if (!myBoard.tilesList.get(xCoord+1).get(yCoord).isRevealed) {
+                    System.out.println("right middle");
+                    revealTile(myBoard, xCoord + 1, yCoord);
                 }
             }
             if (yCoord > 0) { //up middle
@@ -112,31 +113,31 @@ public class Main {
                         confirmation);
                 if (revealFlag.equalsIgnoreCase("Y"))  {
                     myBoard.tilesList.get(userXCoord).get(userYCoord).isFlagged = false;
-//                    gameState = revealTile(myBoard,userXCoord,userYCoord);
-                    myBoard.tilesList.get(userXCoord).get(userYCoord).isRevealed = true;
-                    myBoard.totalUnrevealedTiles--;
-                    if (myBoard.totalUnrevealedTiles==((myBoard.xSize * myBoard.ySize)-1)) {
-                        myBoard.generateBombs(userXCoord,userYCoord);
-                    }
-                    if (myBoard.tilesList.get(userXCoord).get(userYCoord).isBomb){
-                        gameState = "LOSE";
-                    } else if (myBoard.totalUnrevealedTiles == myBoard.numBombs) {
-                        gameState = "WIN";
-                    }
+                    gameState = revealTile(myBoard,userXCoord,userYCoord);
+//                    myBoard.tilesList.get(userXCoord).get(userYCoord).isRevealed = true;
+//                    myBoard.totalUnrevealedTiles--;
+//                    if (myBoard.totalUnrevealedTiles==((myBoard.xSize * myBoard.ySize)-1)) {
+//                        myBoard.generateBombs(userXCoord,userYCoord);
+//                    }
+//                    if (myBoard.tilesList.get(userXCoord).get(userYCoord).isBomb){
+//                        gameState = "LOSE";
+//                    } else if (myBoard.totalUnrevealedTiles == myBoard.numBombs) {
+//                        gameState = "WIN";
+//                    }
 
                 }
             } else {
-//                gameState = revealTile(myBoard,userXCoord,userYCoord);
-                myBoard.tilesList.get(userXCoord).get(userYCoord).isRevealed = true;
-                myBoard.totalUnrevealedTiles--;
-                if (myBoard.totalUnrevealedTiles==((myBoard.xSize * myBoard.ySize)-1)) {
-                    myBoard.generateBombs(userXCoord,userYCoord);
-                }
-                if (myBoard.tilesList.get(userXCoord).get(userYCoord).isBomb){
-                    gameState = "LOSE";
-                } else if (myBoard.totalUnrevealedTiles == myBoard.numBombs) {
-                    gameState = "WIN";
-                }
+                gameState = revealTile(myBoard,userXCoord,userYCoord);
+//                myBoard.tilesList.get(userXCoord).get(userYCoord).isRevealed = true;
+//                myBoard.totalUnrevealedTiles--;
+//                if (myBoard.totalUnrevealedTiles==((myBoard.xSize * myBoard.ySize)-1)) {
+//                    myBoard.generateBombs(userXCoord,userYCoord);
+//                }
+//                if (myBoard.tilesList.get(userXCoord).get(userYCoord).isBomb){
+//                    gameState = "LOSE";
+//                } else if (myBoard.totalUnrevealedTiles == myBoard.numBombs) {
+//                    gameState = "WIN";
+//                }
             }
         } else if (userInput.equalsIgnoreCase("F")) {
             if (myBoard.tilesList.get(userXCoord).get(userYCoord).isRevealed){
@@ -173,7 +174,11 @@ public class Main {
             gameState = playTurn(myBoard,boardXSize,boardYSize);
             System.out.println(gameState);
         }
-        endGame(gameState);
+        if (gameState.equalsIgnoreCase("WIN")) {
+            System.out.println("WIN");
+        } else if (gameState.equalsIgnoreCase("LOSE")) {
+            System.out.println("LOSE");
+        }
 
     }
 }
